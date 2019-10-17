@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def about():
-    return render_template("home.html")
+    return render_template("about.html")
 
 @app.route('/about/')
 def home():
-    return render_template("about.html")
+    return render_template("home.html")
 
 
 if __name__ == "__main__":
