@@ -142,3 +142,12 @@ body {
   text-align: center;
   background-color: #f1f1f1;
 }
+
+.aimage img {
+  float: left;
+  width: 40px;
+  height: 34px;
+  background: #555;
+}
+
+
